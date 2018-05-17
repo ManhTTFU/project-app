@@ -118,12 +118,20 @@ i.fab.fa-apple {
   padding: 13px 20px 13px 20px;
   color: grey;
 }
+i.fab.fa-apple:hover {
+  background-color: blue;
+  border: 0;
+}
 i.fab.fa-android {
   border: 1px solid gray;
   font-size: 65px;
   padding: 13px 20px 13px 20px;
   color: grey;
   margin-left: 20px;
+}
+i.fab.fa-android:hover {
+  background-color: #64dd17;
+  border: 0;
 }
 .footer-col-right p {
   color: #bbb;
