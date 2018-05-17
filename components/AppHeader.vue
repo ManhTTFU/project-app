@@ -25,7 +25,7 @@
   color: #616161;
 }
 .app-header-show p {
-  color: #757575;
+  color: black;
   font-weight: bold;
 }
 .app-header {
@@ -35,7 +35,7 @@
 }
 .app-header-show {
   text-align: center;
-  padding-top: 420px;
+  padding-top: 380px;
 }
 .btn-two {
   border-radius: 15px;
