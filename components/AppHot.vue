@@ -4,7 +4,7 @@
       <b-row class="app-hot">
         <b-col>
           <h1 class="app-title-hot">Hot App</h1>
-          <p class="app-content-hot">Welcome to my App Store</p>
+          <p class="app-content-hot">Welcome to my App Store in DigitalToken Company</p>
         </b-col>
       </b-row>
       <b-row>
@@ -12,6 +12,12 @@
         v-for="(App, id) in AppHotData"
         :key="id">
           <a href="#"><img :src="`/img/${App.img}`" /></a>
+          <p class="app-hot-price">FREE</p>
+          <div class="app-hot-icon">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          </div>
         </b-col>
       </b-row>
     </b-container>
@@ -46,5 +52,14 @@ export default {
 }
 .app-hot {
   padding-top: 63px;
+}
+.app-hot-price {
+  font-size: 12px;
+  color: gray;
+  font-weight: bold;
+  padding: 10px 50px 0px 0px;
+}
+.app-hot-icon {
+  padding-right: 25px;
 }
 </style>
