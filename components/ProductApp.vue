@@ -28,13 +28,18 @@
               </b-card>
         </b-col>
     </b-row>
+    <paging></paging>
   </b-container>
   </div>
 </template>
 <script>
 import ProductData from '../filejs/product';
+import Paging from '../components/Paging';
 
 export default {
+  components: {
+    Paging,
+  },
   data() {
     return {
       ProductData,

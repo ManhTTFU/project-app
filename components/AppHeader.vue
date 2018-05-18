@@ -5,10 +5,19 @@
         <b-col>
           <div class="app-header-show">
             <h1 class="title-content">App Store</h1>
-            <p>Checking the network cables, modem, and router,fuck your mother ...</p>
+            <b-col
+              md="6"
+              offset="3">
+            <b-form-input
+            class="search-app"
+            id="input-default"
+            type="text"
+            placeholder="Search app you want to use...">
+            </b-form-input>
+            </b-col>
+            <p>Examplae : facebook, zalo, instagram...</p>
             <b-button
-              class="btn-one">Buy now</b-button>
-            <b-button class="btn-two">Buy now</b-button>
+              class="btn-one">Search Now</b-button>
           </div>
         </b-col>
       </b-row>
@@ -27,6 +36,7 @@
 .app-header-show p {
   color: black;
   font-weight: bold;
+  font-size: 10px;
 }
 .app-header {
   background-image: url('../static/img/appstore.jpg');
@@ -37,17 +47,6 @@
   text-align: center;
   padding-top: 380px;
 }
-.btn-two {
-  border-radius: 15px;
-  margin-left: 20px;
-  width: 145px;
-  border: 2px solid black;
-  font-weight: bold;
-  background: transparent;
-}
-.btn-two:hover {
-  background-color: black;
-}
 .btn-one {
   border-radius: 15px;
   width: 145px;
@@ -57,5 +56,10 @@
 }
 .btn-one:hover {
   background-color: black;
+}
+.search-app {
+  border: 3px solid gray;
+  border-radius: 20px;
+  text-align: center;
 }
 </style>
